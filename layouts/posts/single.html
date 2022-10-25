@@ -50,9 +50,6 @@
         {{- /* Meta */ -}}
         <div class="post-meta">
             <div class="post-meta-line">
-                <span class="post-author">
-                    {{- partial "meta/author.html" . }}
-                </span>
                 {{- with .Params.categories | or .Params.series -}}
                     &nbsp;<span class="post-category">
                         {{- T "includedIn" | safeHTML -}}
