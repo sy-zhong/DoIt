@@ -222,9 +222,8 @@
       }
 
       > table {
-        width: 100%;
         max-width: 100%;
-        margin: .625rem 0;
+        margin: .625rem auto;
         border-spacing: 0;
         background: $table-background-color;
         border-collapse: collapse;
